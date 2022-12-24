@@ -26,11 +26,11 @@ body {
 }
 
 
-.info-text {
+.info {
     margin-left: 40px;
 }
 
-.info-text p {
+.bio p {
     font-style: italic;
     font-weight: bold;
     color: #8898f8;
@@ -70,6 +70,15 @@ body {
     opacity: 0.8;
 }
 
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
 .table {
     width: 100%;
 }
@@ -96,6 +105,7 @@ body {
     /* display: inline-block; */
     margin-right: 20px;
     width: 50%;
+    padding-bottom: 5px;
     /* width: 50%; */
     /* width: calc(50% - 20px); */
 }
@@ -134,4 +144,11 @@ body {
     padding: 15px 0 10px;
     outline: none;
     font-family: inherit;
+}
+
+.link {
+    list-style-type: none;
+    width: 30px;
+    height: 30px;
+    /* display: flex; */
 }
