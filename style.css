@@ -148,7 +148,10 @@ body {
 
 .link {
     list-style-type: none;
+    display: flex;
+}
+
+.link img {
     width: 30px;
     height: 30px;
-    /* display: flex; */
 }
