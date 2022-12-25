@@ -51,11 +51,13 @@ body {
 .hobby {
     background: #e5ffe7;
     border-radius: 15px;
+    padding: 20px;
 }
 
 .work {
     background: #ffe5e5;
     border-radius: 15px;
+    padding: 20px;
 }
 
 .btn {
@@ -100,8 +102,9 @@ body {
 
 .form-row {
     margin-bottom: 10px;
-    background: #9cecee;
+    background: #cdd7d7;
     border-radius: 15px;
+    padding: 20px;
 }
 
 .form-row .form-group {
@@ -152,6 +155,7 @@ body {
 .link {
     list-style-type: none;
     display: flex;
+    padding: 20px;
 }
 
 .link h2 {
