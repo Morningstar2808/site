@@ -60,14 +60,14 @@ body {
     padding: 20px;
 }
 
-.btn {
+.form-group .btn {
     background: rgb(25, 25, 28);
-    padding: 9px 10px;
+    padding: 12px 10px;
     color: rgb(250, 242, 242);
     border: none;
     font-family: inherit;
     cursor: pointer;
-    border-radius: 25px;
+    border-radius: 23px;
 }
 
 .btn:hover {
@@ -120,12 +120,19 @@ body {
     margin-right: 0;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 500px) {
     .form-row {
         display: block;
     }
 
     .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .link {
+        display: block;
         width: 100%;
         margin-right: 0;
         margin-bottom: 10px;
