@@ -41,10 +41,14 @@ body {
     margin-bottom: 10px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
     .info {
         display: block;
         text-align: center;
+    }
+
+    .link h2 {
+        font-size: 0.7rem;
     }
 }
 
@@ -120,7 +124,7 @@ body {
     margin-right: 0;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 375px) {
     .form-row {
         width: 100%;
         display: block;
@@ -135,8 +139,12 @@ body {
     .link {
         display: block;
         width: 100%;
-        /* margin-right: 0; */
-        /* margin-bottom: 10px; */
+        align-items: center;
+    }
+
+    .link h2 {
+        padding: 0;
+        margin: 0;
     }
 }
 
@@ -167,7 +175,7 @@ body {
 }
 
 .link h2 {
-    margin-bottom: 20px;
+    align-items: center;
     padding-bottom: 10px;
 }
 
